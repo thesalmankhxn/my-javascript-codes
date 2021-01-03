@@ -9,7 +9,7 @@ const getData = () => {
 
 const debounce = function (fn, d) {
     return function () {
-
+        setTimeout
     };
 };
 
