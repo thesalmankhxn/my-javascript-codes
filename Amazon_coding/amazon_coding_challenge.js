@@ -9,7 +9,7 @@
 
 let sum = (a) => {
     return (b) => {
-        return b ? sum(a +b) : a;
+        return b ? sum(a + b) : a;
     }
 }
 document.querySelector('h1').innerHTML = (sum(1)(2)(3)(4)());
