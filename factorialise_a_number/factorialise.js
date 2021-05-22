@@ -1,9 +1,10 @@
 const factorial = s => {
     let num = 1;
-    for (let i = 1; i <= s; i++){
+    for (let i = 1; i <= s; i++) {
         num *= i;
+        console.log(num, i);
     }
     return num;
 };
 
-console.log(factorial(5));
+console.log(factorial(2));
