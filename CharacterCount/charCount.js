@@ -3,7 +3,7 @@ const charCount = str => {
 
     for (let i = 0; i < str.length; i++) {
         let char = str[i].toLowerCase();
-        console.log(result);
+
         if (char != ' ') {
             if (result[char] > 0) {
                 result[char]++;
