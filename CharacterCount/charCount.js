@@ -12,6 +12,6 @@ const charCount = str => {
     }
 
     return result;
-};
+}
 
 console.log(charCount('Hello'));
