@@ -1,14 +1,13 @@
-const { performance } = require('perf_hooks');
+const { performance } = require("perf_hooks");
 
 function reverseStr(str) {
+  // return str.split("").reverse().join("");
 
-    // return str.split("").reverse().join("");
-
-    let final = "";
-    for (let i = str.length - 1; i >= 0; i--) {
-        final += str[i];
-    }
-    return final;
+  let final = "";
+  for (let i = str.length - 1; i >= 0; i--) {
+    final += str[i];
+  }
+  return final;
 }
 
 let s = "SK77 is King";
