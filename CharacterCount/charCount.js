@@ -1,16 +1,9 @@
 const charCount = (str) => {
-  let result = {};
+  const result = {};
 
-  for (let i = 0; i < str.length; i++) {
-    let char = str[i].toLowerCase();
-    console.log(char);
-    console.log(result);
-    if (char != " ") {
-      if (result[char] > 0) {
-        result[char]++;
-      } else {
-        result[char] = 1;
-      }
+  for (const char of str.toLowerCase()) {
+    if (char !== " ") {
+      result[char] = (result[char] || 0) + 1;
     }
   }
 
